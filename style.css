@@ -15,5 +15,110 @@
 
 body{
     background-color: var(--color-1);
-    
+    font-family: 'Lato', sans-serif;
+}
+
+.wrapper{
+    background-color: var(--color-3);
+    width: 95%;
+    max-width: 500px;
+    margin: 50% auto;
+    padding: 15px;
+}
+
+.product_rating{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.product_rating .far{
+    cursor: pointer;
+}
+
+.product_rating .far:hover{
+    background-color: #e3e3e3;
+}
+
+.prev_nav{
+    display: flex;
+    align-items: center;
+}
+
+.prev_nav .fas{
+    font-size: .7rem;
+    cursor: pointer;
+}
+
+
+
+.prev_nav span{
+    text-transform: uppercase;
+    font-size: .7rem;
+    margin-left: 10px;
+}
+.product_item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #e3e3e3;
+    padding-top: 20px;
+}
+
+#plant_vase{
+    width: 200px;
+    height: auto;
+}
+
+.product_heading{
+    text-transform: uppercase;
+    color: var(--color-2);
+    margin-bottom: 10px;
+}
+
+.product_heading h1{
+    font-size: 1.2rem;
+}
+
+.product_content{
+    border-left: 1px solid #e3e3e3;
+    padding-left: 20px;
+}
+
+.product_content h5{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+
+.product_description p{
+    font-size: .8rem;
+    line-height: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.product-btn{
+    width: 100%;
+    display: flex;
+}
+
+.product-btn button{
+    padding: 8px;
+    border: 1px solid #e3e3e3;
+    outline: none;
+    background-color: var(--color-3);
+    text-transform: uppercase;
+    font-size: .7rem;
+    margin: 0 8px 0 0;
+    width: 100%;
+    cursor: pointer;
+    transition: all 250ms ease-in-out;
+}
+
+.product-btn button:hover{
+    background-color: #000;
+    color: #fff;
+    border: none;
 }
